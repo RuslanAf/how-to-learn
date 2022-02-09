@@ -3,21 +3,19 @@
   line-height: 18px;
   font-weight: 400;
   margin: 0 0 10px;
-  display: inline-flex;
-  justify-content: flex-start;
   align-items: center;
+}
+
+.footer__column-link a {
   text-decoration: none;
   color: white;
 }
 
-.footer__column-link[href="https://www.instagram.com/yndx.practicum/"] {
-margin-bottom: 16px;
-}
-.footer__column-link[href="https://yandex.ru/support/praktikum/mentors.html"] {
+.footer__column-link:last-child {
   margin-bottom: 16px;
-  }
+}
 
 .footer__column-link:hover {
-opacity: .5;
-transition: .5s;
+  opacity: .5;
+  transition: .5s;
 }
