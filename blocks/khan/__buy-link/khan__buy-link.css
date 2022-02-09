@@ -4,7 +4,7 @@ line-height: 42px;
 font-weight: 400;
 color: #2f80ed;
 text-decoration: none;
-transition: .5s;
+transition: .5s linear;
 align-self: flex-start;
 }
 
@@ -14,5 +14,5 @@ align-self: flex-start;
 }
 
 .khan__buy-link:hover {
-  color: rgb(0, 0, 252);
+  opacity: .5;
 }
