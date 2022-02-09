@@ -11,7 +11,7 @@
 }
 
 .feynman__link:hover {
-  color:rgb(0, 0, 252);
+  opacity: .5;
 }
 
 .feynman__link::after {
