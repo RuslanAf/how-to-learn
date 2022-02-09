@@ -6,11 +6,6 @@
   align-items: center;
 }
 
-.footer__column-link a {
-  text-decoration: none;
-  color: white;
-}
-
 .footer__column-link:last-child {
   margin-bottom: 16px;
 }
